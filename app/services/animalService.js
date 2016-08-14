@@ -1,6 +1,6 @@
 var $ = require("jquery");
 var promise = require("es6-promise");
-var resourceUrl = "https://animal-finder.herokuapp.com/";
+var resourceUrl = "/api/animals";
 
 module.exports = {
     addAnimal: function (animal) {
