@@ -8,7 +8,7 @@ module.exports = React.createClass({
           type:""
       }  
     },
-    addSchool:function(form){
+    addAnimal:function(form){
         form.preventDefault();
         actions.addAnimal(this.state);
     },
@@ -20,7 +20,7 @@ module.exports = React.createClass({
     },
     render:function() {
         return(
-            <form className="form" onSubmit={this.addSchool}>
+            <form className="form" onSubmit={this.addAnimal}>
                 <div className="form-group">
                     <label className="control-label" htmlFor="name">Animal Name:</label>
                     <input type="text" className="form-control" id="name" name="name" 
